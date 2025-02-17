@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="api-gateway/src/main/java"/>
+	<classpathentry kind="src" path="api-gateway/src/test/java"/>
+	<classpathentry kind="src" path="authentication-service/src/main/java"/>
+	<classpathentry kind="src" path="authentication-service/src/test/java"/>
+	<classpathentry kind="src" path="order-service/src/main/java"/>
+	<classpathentry kind="src" path="order-service/src/test/java"/>
+	<classpathentry kind="src" path="payment-service/src/main/java"/>
+	<classpathentry kind="src" path="payment-service/src/test/java"/>
+	<classpathentry kind="src" path="product-service/src/main/java"/>
+	<classpathentry kind="src" path="product-service/src/test/java"/>
+	<classpathentry kind="src" path="registry-discovery-server/src/main/java"/>
+	<classpathentry kind="src" path="registry-discovery-server/src/test/java"/>
+	<classpathentry kind="lib" path="api-gateway/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="authentication-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="order-service/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="payment-service/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="product-service/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="registry-discovery-server/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
